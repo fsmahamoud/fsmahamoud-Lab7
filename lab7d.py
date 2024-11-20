@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Student ID: [seneca_id] 
+# Student ID: [fsmahamoud] 
 class Time:
     """Simple object type for time of the day.
         data attributes: hour, minute, second
@@ -53,3 +53,5 @@ def sec_to_time(seconds):
     minutes, time.second = divmod(seconds, 60)
     time.hour, time.minute = divmod(minutes, 60)
     return time
+
+
